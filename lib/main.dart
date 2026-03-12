@@ -105,8 +105,17 @@ class GumaganangVersion extends State<MyApp> {
       home: Scaffold(
         backgroundColor: Color(0xFFFFF9F4),
         appBar: AppBar(
-          title: const Text('KIYK NA MASARAP NI JINSENG'),
+          title: const Text(
+            'KIYK NA MASARAP NI JINSENG',
+            style: TextStyle(
+              color: Color.fromARGB(255, 250, 221, 202),
+              fontWeight: FontWeight.bold,
+              fontSize: 14,
+            ),
+          ),
           centerTitle: true,
+          backgroundColor: Color(0xFFE8A87C),
+          toolbarOpacity: 0.0,
         ),
         body: SingleChildScrollView(
           child: Center(
